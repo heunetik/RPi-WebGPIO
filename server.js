@@ -10,7 +10,7 @@ app.listen(port, () => {
     console.log(`listening on ${port}`);
 });
 
-app.set('view engine', 'pug');
+app.set('view engine', 'jade');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
