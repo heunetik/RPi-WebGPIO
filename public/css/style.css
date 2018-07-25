@@ -8,13 +8,13 @@ a {
 }
   
 div[class^="col-"] {
-    padding: 4px 8px;
+    padding: 3px 6px;
     background-color: #13293D;
     color: #EEF0F2;
     font-weight: bold;
-    line-height: 34px;
+    line-height: 28px;
     margin-bottom: 2px;
-    height: 43px;
+    height: 35px;
 }
 div.row > div[class^="col-"]:nth-child(odd) {
     border-right: 1px solid white;
