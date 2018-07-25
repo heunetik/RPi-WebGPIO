@@ -1,16 +1,17 @@
-body {
-  padding: 50px;
+html body {
+    padding: 50px;
+    background-color: #0D7E83;
 }
-
+  
 a {
-  color: #00B7FF;
+    color: #00B7FF;
 }
-
-
+  
 div[class^="col-"] {
     padding: 4px 8px;
-    background-color: #5F8645;
-    color: #E9E5D2;
+    background-color: #13293D;
+    color: #EEF0F2;
+    font-weight: bold;
     line-height: 34px;
     margin-bottom: 2px;
     height: 43px;
