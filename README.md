@@ -18,6 +18,8 @@
 
 - If the console outputs "listening on 3000", your server is live on port 3000
 
+- **Note:** if you would like to use your own port, you can add it as a command line argument like `node ./server.js 27015`; then the console should output "listening on XYZ", or in this case, 27015
+
 ----
 ## Interface
 

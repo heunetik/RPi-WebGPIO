@@ -2,7 +2,13 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const bodyParser = require('body-parser');
-const port = 3000;
+const args = process.argv.slice(2).shift();
+let port = 3000;
+
+if (args && Math.abs(args | 0) < 65536) {
+    port = Math.abs(args | 0);
+}
+
 
 const ajax = require('./routes/ajax');
 
